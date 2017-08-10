@@ -1,0 +1,156 @@
+body {
+    font-family: Arvo, serif;
+    color: black;
+    text-align: justify;
+
+}
+
+header {
+    background-color: #107332;
+    padding: 7px;
+}
+
+.arrow-down2 {
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 60px solid #B4CFFF;
+}
+
+.top {
+    position: relative;
+}
+
+hr {
+    height: 5px;
+    background-color: #107332;
+    max-width: 550px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+
+
+p {
+    max-width: 475px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+// #middle {
+//     width: 50%;
+//     margin-right: 25%;
+//     margin-left: 25%;
+// }
+
+
+a {
+    color: #9DB1FF;
+    text-decoration: none;
+}
+
+a:hover {
+   //font-weight: bolder;
+   text-decoration: none;
+   cursor: pointer;
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+// a:visited {
+//     color: #B4CFFF;
+// }
+
+
+h1 {
+    font-size: 60px;
+    font-family: Abril Fatface, serif;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: Abril Fatface, serif;
+    text-align: center;
+    color: black;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+img {
+    border-radius: 50%;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+span {
+    font-size: 14px;
+}
+
+.arrow-up2 {
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid #B4CFFF;
+    float: right;
+}
+
+footer {
+    padding: 20px;
+    background-color: #107332;
+    font: black;
+
+//     position: relative;
+//     clear: both;
+     width: 100%;
+// }
+
+@media (max-width:600px) {
+    h1 {
+        font-size: 30px;
+        margin: 0
+    }
+    h2 {
+        font-size: 25px;
+        margin: 0
+    }
+    h3 {
+        font-size: 20px;
+    }
+    a {
+        font-size: 18px;
+    }
+    p {
+        max-width: 350px;
+    }
+    hr {
+        max-width: 350px;
+    }
+
+    .arrow-down2 {
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-top: 35px solid #B4CFFF;
+    }
+
+    .arrow-up2 {
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 35px solid #B4CFFF;
+        float: right;
+    }
+}

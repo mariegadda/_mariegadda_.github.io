@@ -1,0 +1,73 @@
+
+#container{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 15px;
+}
+article{//padding-left: 15px;
+		//padding-right:0px;
+		font-family: Arvo, Serif;
+
+		}
+header{
+	text-align: right;
+}
+
+hr{height: 5px;
+background-color:  #107332;}
+
+img{border-radius: 50%;
+display: inline-block;
+float: left;
+padding: 20px;}
+
+h1{float: left;
+	max-width: 400px;
+	font-family: Abril Fatface, Serif; 
+font-size: 50px;}
+
+.content{max-width: 650px;
+float: right;
+padding: 5px;
+font-size: 15px;}
+
+h3{font-family: Arvo, Serif;
+	font-size: 14px;}
+
+h2{font-family: Abril Fatface, Serif;
+	display: block;
+float: left;
+width: 150px;}
+
+h4{font-family: Arvo, Serif;}
+
+
+h1, h2{color: #B4CFFF;}
+
+.fa{color: #107332;}
+
+
+#profile{display: inline-block;}
+#work{display: inline-block;}
+#addwork{display: inline-block;}
+#skills{display: inline-block;}
+#education{display: inline-block;}
+
+
+ul {
+    list-style: none;
+   padding-top: 20px;
+   padding-left: 0px;
+    margin:0;
+}
+
+li {font-size: 22px;
+}
+span{font-size: 16px;}
+li:before {
+    content: "• ";
+    color: #107332;}
+
+
+
+
