@@ -4,7 +4,7 @@
 <head>
     <title>Marie Gadda</title>
     <link rel="shortcut icon" href="resume/favicon.png">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link href='https://fonts.googleapis.com/css?family=Abril+Fatface|Playfair+Display|Arvo' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <a name="top">
+    <a name="top" class="top">
         <header>
         </header>
         <a href="#bottom">
@@ -22,57 +22,101 @@
             <h1> Marie Gadda</h1>
             <h2> Full-Stack Web Developer</h2>
             <hr>
-
             <p>I am a full-stack developer who loves working on interactive sites! Currently working with the MERN stack but open to learning new technologies as well. I have experience with HTML5, CSS3, Javascript (including ES6), and jQuery on the front end; Node.JS, Express, SQL, Mongo, Handlebars, React, and React-Router on the backend.
             </p>
-            
             <h3> What I've Made</h3>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <p class="col-md-4">
-                            <a href="https://github.com/GoodTunes17/GoodTunes" target="blank">Good Tunes</a>
-                            <br> Good Tunes is a Music-Discovery App that allows users to save and rate their favorite tracks from a variety of sources. It is a React app with a Node.JS and Mongo backend. This was my final group project for UNC Chapel Hill's Coding Bootcamp. 
-                        </p>
-                        <p class="col-md-4">
-                            <a href="https://github.com/mariegadda/friend-finder" target="blank"> Friend Finder</a>
-                            <br> Friend Finder is a quiz to find out find out with whom you are most compatible. It is a full-stack app with a Node.JS and SQL back end. 
-                        </p>
-                        <p class="col-md-4">
-                            <a href="https://github.com/mariegadda/sequelizedBurger" target="blank"> Eat-Da-Burger</a>
-                            <br> An app for creating burgers in SQL, and devouring them. Node.JS backend and rendered in handlebars
-                        </p>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                            <p class="col-md-4">
-                                <a href="https://github.com/mariegadda/Train-Scheduler" target="blank"> Train Scheduler</a>
-                                <br> An app for keeping track of fake train schedules. A front-end application using a Firebase database. 
-                            </p>
-                            <p class="col-md-4">
-                                <a href="https://github.com/mariegadda/scrapedmongo" target="blank"> Pitchfork Scraper</a>
-                                <br> An full-stack app that scrapes best new tracks from Pitchfork, and saves them to a mongo database. Node.JS backend and rendered in handlebars
-                            </p>
-                            <p class="col-md-4">
-                                <a href="https://github.com/mariegadda/TriviaGame" target="blank"> Outer Space Trivia</a>
-                                <br>Timed Trivia game to test your knowledge of outer space. A front end application made with Javascript, HTML, and CSS.
-                            </p>
-                        </div>
+            <div class="row">
+                <div class="col s12 m6 l4 apps">
+                    <a class="modal-trigger" href="#modal1">Good Tunes</a>
+                    <br> Good Tunes is a Music-Discovery App that allows users to save and rate their favorite tracks from a variety of sources. It is a React app with a Node.JS and Mongo backend. This was my final group project for UNC Chapel Hill's Coding Bootcamp.
+                </div>
+                <!-- Modal Structure -->
+                <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <p>see github and deploy <a href="https://github.com/GoodTunes17/GoodTunes" target="blank">here</a> </p>
+                        <img class="screenshot" src="./imgs/goodtunes_screenshot.png">
                     </div>
                 </div>
-              
-                <h3>About Me</h3>
-                <p>
-                    I am a native of Portland Oregon, although life has taken me allover the country. I completed UNC Chapel Hill's Coding Bootcamp in August, 2017. The Coding Bootcamp is a six month, full stack, intensive course. Before that I spent several years working in childcare; as a Nanny, at a Montessori School, and for a nonprofit. I've decided to switch gears and focus on a career in web development. When I'm not coding I enjoy riding my bicycle, hiking, cooking veggie meals, making jokes with my friends and reading scientific books meant for a general audience!
-                </p>
-                <hr>
-                <a name="bottom"></a>
-                <a href="#top">
-                    <div class="arrow-up2"></div>
-                </a>
+                <div class="col s12 m6 l4 apps">
+                    <a class="modal-trigger" href="#modal2"> Friend Finder</a>
+                    <br> Friend Finder is a quiz to find out find out with whom you are most compatible. It is a full-stack app with a Node.JS and SQL back end.
+                </div>
+                <!-- Modal Structure -->
+                <div id="modal2" class="modal">
+                    <div class="modal-content">
+                        <p>see github and deploy <a href="https://github.com/mariegadda/friend-finder" target="blank">here</a> </p>
+                        <img class="screenshot" src="./imgs/friend-finder.png">
+                    </div>
+                </div>
+                <div class="col s12 m6 l4 apps">
+                    <a class="modal-trigger" href="#modal6"> Outer Space Trivia</a>
+                    <br>Timed Trivia game to test your knowledge of outer space. A front end application made with Javascript, HTML, and CSS.
+                </div>
+                <!-- Modal Structure -->
+                <div id="modal6" class="modal">
+                    <div class="modal-content">
+                        <p>see github and deploy <a href="https://github.com/mariegadda/TriviaGame" target="blank">here</a> </p>
+                        <img class="screenshot" src="./imgs/space.png">
+                    </div>
+                </div>
+                <!-- end row -->
             </div>
+            <div class="row">
+                <div class="col s12 m6 l4 apps">
+                    <a class="modal-trigger" href="#modal4">  Train Scheduler</a>
+                    <br> An app for keeping track of fake train schedules. A front-end application using a Firebase database.
+                </div>
+                <!-- Modal Structure -->
+                <div id="modal4" class="modal">
+                    <div class="modal-content">
+                        <p>see github and deploy <a href="https://github.com/mariegadda/Train-Scheduler" target="blank">here</a> </p>
+                        <img class="screenshot" src="./imgs/trains.png">
+                    </div>
+                </div>
+                <div class="col s12 m6 l4 apps">
+                    <a class="modal-trigger" href="#modal5">  Pitchfork Scraper</a>
+                    <br> An full-stack app that scrapes best new tracks from Pitchfork, and saves them to a mongo database. Node.JS backend and rendered in handlebars
+                </div>
+                <!-- Modal Structure -->
+                <div id="modal5" class="modal">
+                    <div class="modal-content">
+                        <p>see github and deploy <a href="https://github.com/mariegadda/scrapedmongo" target="blank">here</a> </p>
+                        <img class="screenshot" src="./imgs/pitchfork.png">
+                    </div>
+                </div>
+                <div class="col s12 m6 l4 apps">
+                    <a class="modal-trigger" href="#modal3"> Eat-Da-Burger</a>
+                    <br> An app for creating burgers in SQL, and devouring them. Node.JS backend and rendered in handlebars
+                </div>
+                <!-- Modal Structure -->
+                <div id="modal3" class="modal">
+                    <div class="modal-content">
+                        <p>see github and deploy <a href="https://github.com/mariegadda/sequelizedBurger" target="blank">here</a> </p>
+                        <img class="screenshot" src="./imgs/eat-burger.png">
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <h3>About Me</h3>
+            <p>
+                I am a native of Portland Oregon, although life has taken me allover the country. I completed UNC Chapel Hill's Coding Bootcamp in August, 2017. The Coding Bootcamp is a six month, full stack, intensive course. Before that I spent several years working in childcare; as a Nanny, at a Montessori School, and for a nonprofit. I've decided to switch gears and focus on a career in web development. When I'm not coding I enjoy riding my bicycle, hiking, cooking veggie meals, making jokes with my friends and reading scientific books meant for a general audience!
+            </p>
+            <hr>
+            <a name="bottom"></a>
+            <a href="#top">
+                <div class="arrow-up2"></div>
+            </a>
+        </div>
         </div>
 </body>
 <footer class="footer"><a href="mailto:mariegadda@gmail.com">Email Marie!</a> </footer>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript">
+    // trigger modals
+$(document).ready(function() {
+    $('.modal').modal();
+});
+</script>
 
 </html>
