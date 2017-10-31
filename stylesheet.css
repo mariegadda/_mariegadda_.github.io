@@ -17,7 +17,10 @@ header {
     border-right: 60px solid transparent;
     border-top: 60px solid #B4CFFF;
 }
-
+.arrow-down2:hover{
+    border-top: 60px solid #9CB4DC;
+}
+}
 .top {
     position: relative;
 }
@@ -40,30 +43,21 @@ p {
 }
 
 
-// #middle {
-//     width: 50%;
-//     margin-right: 25%;
-//     margin-left: 25%;
-// }
-
-
 a {
     color: #9DB1FF;
     text-decoration: none;
+    font-size: 18px;
 }
 
 a:hover {
-   //font-weight: bolder;
+   font-weight: bolder;
+   
    text-decoration: none;
    cursor: pointer;
     -webkit-transform: scale(1.3);
         -ms-transform: scale(1.3);
         transform: scale(1.3);
 }
-
-// a:visited {
-//     color: #B4CFFF;
-// }
 
 
 h1 {
@@ -97,6 +91,9 @@ span {
 }
 
 .arrow-up2 {
+    
+    position:absolute;
+    bottom:40px;
     width: 0;
     height: 0;
     border-left: 60px solid transparent;
@@ -105,15 +102,17 @@ span {
     float: right;
 }
 
+.arrow-up2:hover{
+    border-bottom: 60px solid #9CB4DC;
+}
+
 footer {
     padding: 20px;
     background-color: #107332;
-    font: black;
-
-//     position: relative;
-//     clear: both;
+    position: relative;
+    margin-top: 100px;
      width: 100%;
-// }
+ }
 
 .modal{
     border-radius: 3%;
